@@ -1,0 +1,89 @@
+.home{
+    height: 220px;
+    
+}
+
+.home-content{
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    line-height: 400px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 45px;
+    padding: 10px;
+}
+
+.home-content h3{
+    margin-top: 10px;
+  color: rgb(242, 227, 13);
+}
+
+.button-for-action{
+    display: flex;
+}
+
+.button-for-action{
+    display: flex;
+    position: relative;
+}
+
+.button-for-action div{
+    width: 120px;
+    height: 40px;
+    text-align: center;    
+    border-radius: 35px;
+    border: 1px solid white;
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.hire-me-button{
+    margin-left: 111px;   
+    padding: 8px;
+    background-color: #FF854c;
+    box-shadow: 0 9px #999;
+    display: inline;
+    justify-content: center;
+}
+
+
+.hire-me-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.hire-me-button:hover{
+    background-color: #3e8e41
+}
+
+
+
+
+.getresume-button{
+    margin-left:  20px;
+    padding: 8px;   
+    background-color: rgb(234, 174, 13);  
+    box-shadow: 0 9px #999;  
+    display: inline;
+    justify-content: center;
+    
+}
+
+
+.getresume-button a{
+    text-decoration: none;
+    color: black ;
+}
+
+.getresume-button:active {
+    background-color: rgb(242, 227, 13);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .getresume-button:hover{
+    background-color: rgb(219, 234, 13);
+}
