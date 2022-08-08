@@ -3,6 +3,7 @@ import SideBar from "./components/sidebar/SideBar";
 import About from "./components/About/About";
 import TechStack from "./components/TechStack/TechStack";
 import Project from "./components/Projects/Project";
+import WorkExperience from "./components/WorkExperience/WorkExperience";
 const App = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const App = () => {
       <About />
       <TechStack />
       <Project />
+      <WorkExperience />
     </>
   );
 };

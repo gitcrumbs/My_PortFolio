@@ -14,7 +14,7 @@ const Home = () => {
                 "Senior Engineer (QA)",
                 "SDET",
                 "Automation Architect",
-                "Full Stack Software Developer",
+                "Certified Full Stack Software Developer",
                 "UI/UX Designer",
                 "React JS Developer",
                 "Cloud Enthusiast",

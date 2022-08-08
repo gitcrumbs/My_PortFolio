@@ -1,0 +1,32 @@
+
+.salutation{
+    margin-bottom: 25px;
+}
+.tech-used{
+    
+    margin: 10px;
+    display: inline-flex;
+   
+}
+
+.tech-used p{
+    background-color: black;
+    color: white;
+    border-radius: 90px;
+    padding: 8px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.FieldBorder{
+    margin:10px;
+    border: 1px solid black;
+}
+
+legend {
+    background-color:rgb(33, 150, 243);
+    color: white;
+    margin-top: -22px;
+    width: fit-content;
+    position: absolute;
+  }

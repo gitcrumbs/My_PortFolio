@@ -7,35 +7,51 @@ const TechStack = () => {
       name: "Full Stack Developer",
     },
     {
-      name: "UX Designing",
-    },
-    {
-      name: "HTML",
-    },
-
-    {
-      name: "Java",
-    },
-    {
-      name: "Spring Cloud",
-    },
-    {
-      name: "Kafka",
-    },
-    {
-      name: "Selenium",
-    },
-    {
-      name: "JavaScript",
+      name: "HTML & CSS",
     },
     {
       name: "React JS",
     },
     {
-      name: "VBScripting",
+      name: "JAVA",
+    },
+    {
+      name: "Selenium",
+    },
+    {
+      name: "UX Designing",
+    },
+
+    {
+      name: "AWS Cloud",
+    },
+    {
+      name: "Google Cloud",
     },
     {
       name: "Python",
+    },
+    {
+      name: "Devops",
+    },
+    {
+      name: "Selenium (JAVA)",
+    },
+    {
+      name: "BlockChain",
+    },
+    {
+      name: "Spring Cloud",
+    },
+    {
+      name: "Apache Kafka",
+    },
+
+    {
+      name: "JavaScript",
+    },
+    {
+      name: "VBScripting",
     },
   ];
 
@@ -45,12 +61,17 @@ const TechStack = () => {
     "#58D68D",
     "#2980B9",
     "#5D6D7E",
-    "#4A235A",
+    "#EC152F",
     "#DAF7A6",
     "#CACFD2",
     "#D35400",
     "#69FFDB",
     "#FF697B",
+    "#BE73DC",
+    "#D6AD60",
+    "#F4EBD0",
+    "#D773A2",
+    "#07BB9C",
   ];
 
   const [loadMoreTechStack, setloadMoreTechStack] = useState(3);
