@@ -35,6 +35,58 @@ const Project = () => {
         },
       ],
     },
+    {
+      name: "Joke Telling RoBot",
+      description:
+        "This Prototype app tells a joke fetched from the v2.jokeapi.dev OApi Click on the 'Tell me a Joke Button' and enjoy !!",
+      Projectlink: "https://gitcrumbs.github.io/simple-joke-teller/",
+      techUsed: [
+        {
+          techName: "HTML",
+        },
+        {
+          techName: "CSS",
+        },
+        {
+          techName: "JavaScript",
+        },
+      ],
+    },
+
+    {
+      name: "Infinite Image Scroller",
+      description:
+        "This Prototype demonstrates the Infinite Scrolling feature. When the scroller comes at the middle of the screen, the image api fetches the new list of images and it is rendered on the screen",
+      Projectlink: "https://gitcrumbs.github.io/infiniteScroll_prototype/",
+      techUsed: [
+        {
+          techName: "HTML",
+        },
+        {
+          techName: "CSS",
+        },
+        {
+          techName: "JavaScript",
+        },
+      ],
+    },
+    {
+      name: "Toggle Dark and Light Mode",
+      description:
+        "This Prototype demonstrates the dark and light mode feature toggle",
+      Projectlink: "https://gitcrumbs.github.io/toggle-light-dark-mode/",
+      techUsed: [
+        {
+          techName: "HTML",
+        },
+        {
+          techName: "CSS",
+        },
+        {
+          techName: "JavaScript",
+        },
+      ],
+    },
   ];
 
   return (

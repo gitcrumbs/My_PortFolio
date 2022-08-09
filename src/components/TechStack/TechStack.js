@@ -10,6 +10,9 @@ const TechStack = () => {
       name: "HTML & CSS",
     },
     {
+      name: "JavaScript",
+    },
+    {
       name: "React JS",
     },
     {
@@ -47,9 +50,6 @@ const TechStack = () => {
       name: "Apache Kafka",
     },
 
-    {
-      name: "JavaScript",
-    },
     {
       name: "VBScripting",
     },
