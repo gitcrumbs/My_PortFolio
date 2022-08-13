@@ -81,5 +81,33 @@
     transform: translateY(4px);
 }
 
+.learning-mode{
+    display: flex;    
+    max-width: 100%;
+    align-items: right;
+}
+
+.learning-mode svg{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.learning-mode svg:hover{
+    transform: scale(1.5); 
+    
+}
+
+.learning-mode svg:active{
+    transform: scale(0.7); 
+    transition-duration: 0.2s;
+}
+
+.self-rating{
+    display: flex;
+   justify-content: space-between;
+   justify-content: right;
+    
+}
 
 

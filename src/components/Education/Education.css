@@ -1,0 +1,11 @@
+.timeline-icon svg{
+    height: 80px;
+    width: 100px;
+ 
+}
+
+.timeline-icon{
+   display: flex;
+   justify-content: center;
+   
+}

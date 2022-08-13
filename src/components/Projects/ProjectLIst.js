@@ -23,7 +23,7 @@ const ProjectList = ({ data }) => {
   return (
     <div className="project-list" onClick={handleShowAndCollapse}>
       <div className="title-and-collpase-option">
-        <h1>{data.name}</h1>
+        <h3>{data.name}</h3>
         <p>
           {show ? (
             <HiChevronDoubleUp size={20} />

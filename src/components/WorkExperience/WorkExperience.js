@@ -1,11 +1,12 @@
 import React from "react";
 import "./WorkExperience.css";
+import { GiFlyingFlag } from "react-icons/gi";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { GiFlyingFlag } from "react-icons/gi";
+import { FaLaptopCode } from "react-icons/fa";
 const WorkExperience = () => {
   const workExData = [
     {
@@ -130,6 +131,10 @@ const WorkExperience = () => {
   return (
     <div>
       <div className="section-title">
+        <div className="timeline-icon">
+          <FaLaptopCode />
+        </div>
+
         <h5>Work Experience</h5>
         <span className="underline"></span>
       </div>

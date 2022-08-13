@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectList from "./ProjectLIst";
+import { SiMinutemailer } from "react-icons/si";
 const Project = () => {
   const Projectsdata = [
     {
@@ -93,6 +94,9 @@ const Project = () => {
     <div>
       <div className="container">
         <div className="section-title">
+          <div className="timeline-icon">
+            <SiMinutemailer />
+          </div>
           <h5>Projects</h5>
           <span className="underline"></span>
         </div>
