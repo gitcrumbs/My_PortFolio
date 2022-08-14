@@ -10,17 +10,17 @@ import { FaUserGraduate } from "react-icons/fa";
 
 const Education = () => {
   const EducationData = [
-    {
-      institution: "Liverpool John Moores University, England ",
-      degree: "M.sc in Computer Science",
-      Year: "2023",
-    },
-    {
-      institution:
-        "International Institute of Information Technology, Bangalore.",
-      degree: "Executive PG-Diploma in Full Stack Development",
-      Year: "2022",
-    },
+    // {
+    //   institution: "Liverpool John Moores University, England ",
+    //   degree: "M.sc in Computer Science",
+    //   Year: "2023",
+    // },
+    // {
+    //   institution:
+    //     "International Institute of Information Technology, Bangalore.",
+    //   degree: "Executive PG-Diploma in Full Stack Development",
+    //   Year: "2022",
+    // },
     {
       institution: "GITAM UNIVERSTIY, Visakhapatnam",
       degree: "Bachelor of Technology (Electronics and Instrumentation)",
