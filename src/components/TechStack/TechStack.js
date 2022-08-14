@@ -137,7 +137,7 @@ const TechStack = () => {
       learningMode: [
         {
           mode: "eLearning",
-          link: "",
+          link: "https://coursera.org/share/25bdc6ba2d6bdcbb4166f9eb5c9d3c38",
         },
       ],
     },
