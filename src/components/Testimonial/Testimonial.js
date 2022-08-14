@@ -9,12 +9,12 @@ import { IoIosMedal } from "react-icons/io";
 const Testimonial = () => {
   const testimonialData = [
     {
-      name: "Xoriant Star Award Oct-19 to Mar-2020",
+      name: "Star Award (Oct-19 to Mar-2020)",
       imageLink:
         "https://drive.google.com/uc?id=1B6xGfWthApw2HgbrxuazhO4uj_JZFdaN",
     },
     {
-      name: "Xoriant TITANS Team Award",
+      name: "TITANS Award (Jan to June-2018)",
       imageLink:
         "https://drive.google.com/uc?id=1jUOWER06Qe8ePPJkK3zfOnqcUlUZHvrt",
     },
