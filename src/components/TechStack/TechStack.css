@@ -76,6 +76,10 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+.load-more-tech-stack-button:hover{
+    cursor: pointer;
+}
+
 .load-more-tech-stack-button:active{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -110,4 +114,45 @@
     
 }
 
+#show-no-show{
+    animation: fadeInRight ease 2s;
+    -webkit-animation: fadeInRight ease 2s;
+    -moz-animation: fadeInRight ease 2s;
+    -o-animation: fadeInRight ease 2s;
+    -ms-animation: fadeInRight ease 2s;
+}
 
+
+/*==== FADE IN RIGHT ===*/
+@-webkit-keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  .fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+  }
+  

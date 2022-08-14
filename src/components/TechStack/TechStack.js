@@ -3,7 +3,6 @@ import "./TechStack.css";
 import { FaGraduationCap } from "react-icons/fa";
 import { GrCertificate } from "react-icons/gr";
 import { ImOffice } from "react-icons/im";
-import HoverImage from "react-hover-image";
 
 const TechStack = () => {
   const data = [
@@ -204,6 +203,7 @@ const TechStack = () => {
       <div className="row">
         {data.slice(0, loadMoreTechStack).map((item, index) => (
           <div
+            id="show-no-show"
             className="col-xl-4 col-lg-4 col-md-6 col-sm-12 tech-cells"
             key={index}
           >
