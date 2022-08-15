@@ -3,7 +3,7 @@ import "./TechStack.css";
 import { FaGraduationCap } from "react-icons/fa";
 import { GrCertificate } from "react-icons/gr";
 import { ImOffice } from "react-icons/im";
-
+import Fade from "react-reveal/Fade";
 const TechStack = () => {
   const data = [
     {
@@ -78,7 +78,7 @@ const TechStack = () => {
         },
         {
           mode: "eLearning",
-          link: "",
+          link: "https://drive.google.com/uc?id=16CN3rORMKX2cHYCaPSh43T1badqOsfee",
         },
       ],
     },
@@ -194,7 +194,7 @@ const TechStack = () => {
   };
 
   return (
-    <div className="container techstack-section">
+    <div id="techstack" className="container techstack-section">
       <div className="section-title">
         <h5>Tech Stack</h5>
         <span className="underline"></span>
@@ -202,39 +202,41 @@ const TechStack = () => {
 
       <div className="row">
         {data.slice(0, loadMoreTechStack).map((item, index) => (
-          <div
-            id="show-no-show"
-            className="col-xl-4 col-lg-4 col-md-6 col-sm-12 tech-cells"
-            key={index}
-          >
-            <div className="tech-content">
-              <span
-                className="tech-content-number"
-                style={{ backgroundColor: colors[index] }}
-              >
-                {index + 1}
-              </span>
+          <Fade right>
+            <div
+              id="show-no-show"
+              className="col-xl-4 col-lg-4 col-md-6 col-sm-12 tech-cells"
+              key={index}
+            >
+              <div className="tech-content">
+                <span
+                  className="tech-content-number"
+                  style={{ backgroundColor: colors[index] }}
+                >
+                  {index + 1}
+                </span>
 
-              <h5>{item.name}</h5>
+                <h5>{item.name}</h5>
 
-              <div className="learning-mode">
-                {item.learningMode.map((type, index) =>
-                  type.mode === "grad" ? (
-                    <a href={type.link} target="_blank">
-                      <FaGraduationCap />
-                    </a>
-                  ) : type.mode === "eLearning" ? (
-                    <a href={type.link} target="_blank">
-                      <GrCertificate />
-                    </a>
-                  ) : (
-                    <ImOffice />
-                  )
-                )}
+                <div className="learning-mode">
+                  {item.learningMode.map((type, index) =>
+                    type.mode === "grad" ? (
+                      <a href={type.link} target="_blank">
+                        <FaGraduationCap />
+                      </a>
+                    ) : type.mode === "eLearning" ? (
+                      <a href={type.link} target="_blank">
+                        <GrCertificate />
+                      </a>
+                    ) : (
+                      <ImOffice />
+                    )
+                  )}
+                </div>
+                <h6 className="self-rating">SelfRating : {item.SelfRating}</h6>
               </div>
-              <h6 className="self-rating">SelfRating : {item.SelfRating}</h6>
             </div>
-          </div>
+          </Fade>
         ))}
       </div>
       {loadMoreTechStack >= data.length ? null : (

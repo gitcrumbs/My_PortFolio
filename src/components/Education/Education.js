@@ -29,7 +29,7 @@ const Education = () => {
   ];
 
   return (
-    <div className="container">
+    <div id="education" className="container">
       <div className="section-title">
         <div className="timeline-icon">
           <FaUserGraduate />

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { IoIosMedal } from "react-icons/io";
+import Zoom from "react-reveal/Zoom";
 
 const Testimonial = () => {
   const testimonialData = [
@@ -70,7 +71,7 @@ const Testimonial = () => {
     ],
   };
   return (
-    <div className="container testimonial-section">
+    <div id="testimonials" className="container testimonial-section">
       <div className="section-title">
         <div className="timeline-icon">
           <FaMedal />
@@ -79,32 +80,33 @@ const Testimonial = () => {
         <h5>Testimonials</h5>
         <span className="underline"></span>
       </div>
-
-      <div className="testimonial-slider">
-        <Slider {...settings}>
-          {testimonialData.map((item, index) => (
-            <div className="content-slider-main">
-              <div className="content-slider" key={index}>
-                <div className="images-list">
-                  <a href={item.imageLink} target="_blank">
-                    <img
-                      src={item.imageLink}
-                      alt="testimonial image"
-                      className="center-image"
-                    ></img>
-                  </a>
+      <Zoom>
+        <div className="testimonial-slider">
+          <Slider {...settings}>
+            {testimonialData.map((item, index) => (
+              <div className="content-slider-main">
+                <div className="content-slider" key={index}>
+                  <div className="images-list">
+                    <a href={item.imageLink} target="_blank">
+                      <img
+                        src={item.imageLink}
+                        alt="testimonial image"
+                        className="center-image"
+                      ></img>
+                    </a>
+                  </div>
                 </div>
+                <div className="footer_medal">
+                  <div id="styledimg"></div>
+                </div>
+                <footer>
+                  <h4>{item.name}</h4>
+                </footer>
               </div>
-              <div className="footer_medal">
-                <div id="styledimg"></div>
-              </div>
-              <footer>
-                <h4>{item.name}</h4>
-              </footer>
-            </div>
-          ))}
-        </Slider>
-      </div>
+            ))}
+          </Slider>
+        </div>
+      </Zoom>
     </div>
   );
 };

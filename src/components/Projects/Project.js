@@ -92,7 +92,7 @@ const Project = () => {
 
   return (
     <div>
-      <div className="container">
+      <div id="project" className="container">
         <div className="section-title">
           <div className="timeline-icon">
             <SiMinutemailer />

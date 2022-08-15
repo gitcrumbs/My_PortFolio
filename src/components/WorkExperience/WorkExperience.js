@@ -129,7 +129,7 @@ const WorkExperience = () => {
   ];
 
   return (
-    <div>
+    <div id="workExperience">
       <div className="section-title">
         <div className="timeline-icon">
           <FaLaptopCode />

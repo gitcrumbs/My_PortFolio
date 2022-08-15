@@ -8,15 +8,17 @@ import Education from "./components/Education/Education";
 import Testimonial from "./components/Testimonial/Testimonial";
 import ScrollToTop from "react-scroll-to-top";
 import "./App.css";
+import NavbarMobileView from "./components/sidebar/NavbarMobileView";
 const App = () => {
   return (
     <>
+      <NavbarMobileView />
       <SideBar />
       <About />
-      <TechStack />
-      <Project />
       <WorkExperience />
+      <TechStack />
       <Education />
+      <Project />
       <Testimonial />
       <ScrollToTop
         smooth="true"

@@ -26,12 +26,18 @@
     align-items: right;
     justify-content: right;
     cursor: pointer;
+    
 }
 
 .icon-for-sidebarexpand--and-collapse p svg{
     background-color: #19092c;
-    padding: 5px;
+    padding: 10px;
     color: white;
     border-radius: 5px;
 }
 
+@media(max-width: 1000px){
+    .sidebar{
+        display: none;
+    }
+}
