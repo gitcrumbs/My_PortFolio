@@ -35,7 +35,7 @@ const Home = () => {
         <div className="button-for-action">
           <div className="hire-me-button">Hire Me</div>
           <div className="getresume-button">
-            <a href={Resume} download="AshwaniSingh_CV.pdf">
+            <a href={Resume} download="Resume.pdf">
               Get Resume
             </a>
           </div>
