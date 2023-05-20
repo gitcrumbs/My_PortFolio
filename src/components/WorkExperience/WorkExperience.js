@@ -11,6 +11,49 @@ const WorkExperience = () => {
   const workExData = [
     {
       companyName: "InterContinental Exchange",
+      year: "Jan-2023 to Current",
+      positions: [
+        { Role: "Staff Engineer (QA)", tenure: "Jan-2023 to Current" },
+      ],
+      techSkills: [
+        {
+          techName: "Test Lead",
+        },
+        {
+          techName: "Full Stack",
+        },
+        {
+          techName: "API Automation",
+        },
+        {
+          techName: "Agile",
+        },
+
+        {
+          techName: "QA Automation Developer (Java)",
+        },
+        {
+          techName: "Rest-Assured",
+        },
+        {
+          techName: "Framework Architecting",
+        },
+
+        {
+          techName: "Selenium-Java",
+        },
+
+        {
+          techName: "API Testing using PostMan",
+        },
+
+        {
+          techName: "CI-CD Jenkins",
+        },
+      ],
+    },
+    {
+      companyName: "InterContinental Exchange",
       year: "Oct-2020 to Current",
       positions: [
         { Role: "Senior Engineer (QA)", tenure: "Oct-2020 to Current" },
