@@ -9,6 +9,7 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import ScrollToTop from "react-scroll-to-top";
 import "./App.css";
 import NavbarMobileView from "./components/sidebar/NavbarMobileView";
+import Contact from "./components/Contact/Contact";
 const App = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const App = () => {
       <Education />
       <Project />
       <Testimonial />
+      <Contact/>
       <ScrollToTop
         smooth="true"
         color="white"
@@ -27,6 +29,7 @@ const App = () => {
         width="20px"
         style={{ borderRadius: "90px", backgroundColor: "#38004c" }}
       />
+
     </>
   );
 };
