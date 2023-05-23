@@ -56,7 +56,7 @@ const WorkExperience = () => {
       companyName: "InterContinental Exchange",
       year: "Oct-2020 to Current",
       positions: [
-        { Role: "Senior Engineer (QA)", tenure: "Oct-2020 to Current" },
+        { Role: "Senior Engineer (QA)", tenure: "Oct-2020 to Jan-2023" },
       ],
       techSkills: [
         {
