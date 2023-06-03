@@ -14,7 +14,10 @@ import {
 
 import { Link } from "react-scroll";
 
+
 const SideBarList = ({ ExpandSideBar }) => {
+
+ 
   return (
     <React.Fragment>
       {ExpandSideBar ? (
@@ -39,7 +42,7 @@ const SideBarList = ({ ExpandSideBar }) => {
                 <FcNightPortrait size={25} /> About
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" onClick={!ExpandSideBar}>
               <Link to="workExperience" spy={true} smooth={true} duration={150}>
                 <FcFactory size={25} /> Work Eperience
               </Link>

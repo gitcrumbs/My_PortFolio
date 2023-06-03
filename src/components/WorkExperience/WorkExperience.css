@@ -8,7 +8,12 @@
     display: inline-flex;
    
 }
+#workExperience{
 
+    margin-left: 17%;
+    max-width: 82%;
+
+}
 .tech-used p{
     background-color: black;
     color: white;

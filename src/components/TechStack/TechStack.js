@@ -98,7 +98,7 @@ const TechStack = () => {
       ],
     },
     {
-      name: "Google Cloud",
+      name: "Google Cloud Facilitator",
       SelfRating: "3.5/5",
       learningMode: [
         {

@@ -104,13 +104,13 @@ const WorkExperience = () => {
           techName: "Agile",
         },
         {
-          techName: "Automation Framework Architecting",
+          techName: "Framework Architecting",
         },
         {
           techName: "HP-UFT",
         },
         {
-          techName: "QA Automation Developer (Java)",
+          techName: "SDET",
         },
         {
           techName: "Http-Helper",
@@ -119,7 +119,7 @@ const WorkExperience = () => {
           techName: "Rest-Assured",
         },
         {
-          techName: "QA Automation Developer UFT",
+          techName: "UFT Developer ",
         },
         {
           techName: "CI-CD Jenkins",
@@ -159,13 +159,13 @@ const WorkExperience = () => {
       techSkills: [
         {
           techName:
-            "Paper Presentation @ National Conference on Automation, Communication & Computing-2012",
+            "Paper NCACC-2012",
         },
         {
           techName: "National Instruments LabView",
         },
         {
-          techName: "Project on Process Automation and Fuzzification",
+          techName: "Project: Process Automation using AI Fuzzy Logic ",
         },
       ],
     },
